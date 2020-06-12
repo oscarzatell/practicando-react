@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Saludar name="Oscar Zamora Tellez" />
+        <Saludar name="Oscar Zamora Tellez" edad="23" />
+        <Saludar name="Paco" edad="31" />
       </header>
     </div>
   );
