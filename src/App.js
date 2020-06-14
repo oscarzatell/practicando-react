@@ -4,12 +4,17 @@ import "./App.css";
 import Saludar from "./components/Saludar";
 
 function App() {
+  const user = {
+    nombre: "Oscar Zamora Tellez",
+    edad: 23,
+    color: "rojo",
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Saludar name="Oscar Zamora Tellez" edad="23" />
-        <Saludar name="Paco" edad="31" />
+        <Saludar userInfo={user} />
       </header>
     </div>
   );
