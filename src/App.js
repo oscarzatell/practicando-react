@@ -10,7 +10,9 @@ function App() {
     color: "rojo",
   };
 
-  const saludarFn = () => {};
+  const saludarFn = (name) => {
+    console.log("Hola" + name);
+  };
 
   return (
     <div className="App">
