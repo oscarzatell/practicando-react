@@ -5,7 +5,6 @@ import Saludar from "./components/Saludar";
 
 function App() {
   const user = {
-    nombre: "Oscar Zamora Tellez",
     edad: 23,
     color: "rojo",
   };
